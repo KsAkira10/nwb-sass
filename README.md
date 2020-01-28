@@ -9,7 +9,11 @@ Plugin enabling [Sass](http://sass-lang.com/) loading rules for `.scss` and `.sa
 Install in a project you're using nwb to develop and nwb will detect and load the plugin:
 
 ```
-npm install --save-dev nwb-sass
+npm install --save-dev node-sass sass-loader nwb-sass
+
+or
+
+yarn add node-sass sass-loader nwb-sass --dev
 ```
 
 ## MIT Licensed
